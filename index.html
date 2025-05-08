@@ -1,0 +1,58 @@
+<!-- youtube side by side -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side by Side YouTube Videos</title>
+<style>
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video {
+  flex: 1;
+  min-width: 300px; /* Adjust this value based on your needs */
+  margin: 10px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video {
+  flex: 1;
+  min-width: 300px; /* Adjust this value based on your needs */
+  margin: 10px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+}
+
+
